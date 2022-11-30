@@ -68,9 +68,7 @@ function superbowlWin(record) {
   });
   if(returnedItem){
     return returnedItem.year
-  }else{
-    return returnedItem
-  }  
+  }
 }
 console.log(superbowlWin(record));
 
